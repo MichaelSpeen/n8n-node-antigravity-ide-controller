@@ -1,8 +1,8 @@
 # Antigravity IDE Controller for n8n
 
-![Antigravity Logo](antigravity.svg)
+![Antigravity Logo](nodes/AntigravityController/antigravityController.svg)
 
-An official community node for **n8n** that allows you to programmatically control and orchestrate the **Antigravity IDE**. This node uses the Chrome DevTools Protocol (CDP) to inject prompts, manage tasks, and wait for AI agent completion directly within your local development environment.
+The node for **n8n** that allows you to programmatically control and orchestrate the **Antigravity IDE**. This node uses the Chrome DevTools Protocol (CDP) to inject prompts, manage tasks, and wait for AI agent completion directly within your local development environment.
 
 ## 🚀 Key Features
 
@@ -31,7 +31,7 @@ Before using this node, ensure the following:
 
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/your-username/n8n-nodes-antigravity-controller.git](https://github.com/your-username/n8n-nodes-antigravity-controller.git)
+    git clone [https://github.com/MichaelSpeen/n8n-nodes-antigravity-ide-controller.git](https://github.com/MichaelSpeen/n8n-nodes-antigravity-ide-controller.git)
     cd n8n-nodes-antigravity-controller
     ```
 
