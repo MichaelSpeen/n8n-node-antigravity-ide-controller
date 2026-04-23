@@ -1,5 +1,5 @@
 {
-	"name": "n8n-nodes-antigravity-controller",
+	"name": "n8n-nodes-antigravity-ide-controller",
  	"version": "1.0.0",
  	"description": "Auto-starting CDP injector and controller for the Antigravity IDE",
   "keywords": ["n8n-community-node", "antigravity", "ide", "agent", "automation", "cdp", "controller"],
