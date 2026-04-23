@@ -1,0 +1,48 @@
+{
+	"name": "n8n-nodes-antigravity-controller",
+ 	"version": "1.0.0",
+ 	"description": "Auto-starting CDP injector and controller for the Antigravity IDE",
+  "keywords": ["n8n-community-node", "antigravity", "ide", "agent", "automation", "cdp", "controller"],
+  "main": "index.js",
+  "n8n": {
+    "n8nNodesApiVersion": 1,
+    "credentials": [],
+    "nodes": [
+      "dist/nodes/AntigravityController/AntigravityController.node.js"
+    ]
+  },	"license": "MIT",
+	"homepage": "",
+	"author": {
+		"name": "MichaelSpeen",
+		"email": ""
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/<...>/n8n-nodes-<...>.git"
+	},
+	"scripts": {
+		"build": "n8n-node build",
+		"build:watch": "tsc --watch",
+		"dev": "n8n-node dev",
+		"lint": "n8n-node lint",
+		"lint:fix": "n8n-node lint --fix",
+		"release": "n8n-node release",
+		"prepublishOnly": "n8n-node prerelease"
+	},
+	"files": [
+		"dist"
+	],
+	"devDependencies": {
+		"@n8n/node-cli": "*",
+		"eslint": "9.39.4",
+		"prettier": "3.8.1",
+		"release-it": "19.2.4",
+		"typescript": "5.9.3"
+	},
+	"peerDependencies": {
+		"n8n-workflow": "*"
+	},
+	"dependencies": {
+		"puppeteer-core": "^24.42.0"
+	}
+}
